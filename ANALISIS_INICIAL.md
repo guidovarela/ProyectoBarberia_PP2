@@ -26,14 +26,11 @@ El sistema busca resolver los siguientes puntos de dolor operativos y comerciale
 
 ## 2. Identificación de Actores (Stakeholders)
 
-| Nivel | Rol | Descripción del Rol / Responsabilidades |
-| :---: | :--- | :--- |
-| **0** | **SuperAdmin** | Proveedores/Desarrolladores del software. Gestionan la plataforma a alto nivel, altamientos de empresas/dueños y licenciamiento del sistema. |
-| **1** | **Administradores (Soporte)** | Empleados del equipo de software encargados de la asistencia técnica, resolución de incidencias y soporte operativo a los usuarios. |
-| **2** | **Dueño** | Propietario de toda la cadena de sucursales. Posee visión global del negocio, reportes consolidados, métricas financieras y configuración general de la marca. |
-| **3** | **Encargado / Manager** | Responsable operativo de una sucursal específica. Gestiona los horarios del personal de su sede, supervisa la agenda local y resuelve contingencias diarias. |
-| **4** | **Staff** | Personal operativo de la barbería (recepción, cajero, barberos, etc.). Consultan agenda diaria, registran atenciones/cobros y gestionan sus comisiones. |
-| **5** | **Cliente** | Usuario final que accede (principalmente vía móvil) para consultar disponibilidad, reservar, reprogramar o cancelar turnos y recibir recordatorios. |
+| Rol | Descripción del Rol | Interés / Necesidad Principal |
+| :--- | :--- | :--- |
+| **Rol 1 - Cliente** | Usuario final que accede al sistema (generalmente desde su celular). | Consultar disponibilidad, reservar, reprogramar o cancelar turnos, y recibir notificaciones automáticas con los recordatorios de sus citas. |
+| **Rol 2 - Staff / Personal de Barbería** | Personal operativo encargado de prestar los servicios. | Visualizar su agenda diaria de trabajo, consultar los servicios contratados por cada cliente y registrar la concreción de los turnos para el cálculo de sus comisiones. |
+| **Rol 3 - Administrador o Dueño** | Usuario con acceso total a la gestión del negocio. | Configurar la oferta comercial (servicios, precios y duraciones), gestionar perfiles del staff (horarios, descansos, comisiones), administrar agenda general y consultar reportes. |
 
 ---
 
