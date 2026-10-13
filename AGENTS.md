@@ -1,14 +1,3 @@
-# FICHA DE PROYECTO - Equipo N° 3
-
-## 👥 Integrantes
-- Becco, Nicolás
-- Cortez, Carlos
-- Rojas Álvarez, Airam
-- Varela Coletta, Guido
-- Vazquez Schmidt, Mauro
-
----
-
 ## 📌 Problemática Seleccionada
 **Sistema de Gestión de Turnos**
 
