@@ -1,4 +1,28 @@
 <%- include('partials/header', { title: title }) %>
+    <header class="site-header">
+        <a class="site-brand" href="/">Barbería PP2</a>
+        <nav class="social-links" aria-label="Redes sociales">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </nav>
+    </header>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <section class="supabase-status" aria-labelledby="supabase-title">
+        <h2 id="supabase-title">Estado de Supabase</h2>
+        <p class="<%= connectionOk ? 'connection-ok' : 'connection-error' %>" role="status">
+            <%= connectionMessage %>
+        </p>
+        <% if (queryError) { %>
+            <p class="connection-error">Detalle: <%= queryError %></p>
+        <% } %>
+        <h3>SELECT * FROM user (máximo 10 resultados)</h3>
+        <% if (users) { %>
+            <pre><%= JSON.stringify(users, null, 2) %></pre>
+            <p>
+                users[0]
+            </p>
+        <% } else { %>
+            <p>No hay resultados para mostrar.</p>
+        <% } %>
+    </section>
 <%- include('partials/footer') %>
